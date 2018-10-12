@@ -5,10 +5,12 @@ class BinarySearchTree:
     self.right = None
 
   def depth_first_for_each(self, cb):
-    pass    
+    stack = []
+    cb = lambda x: stack.append(x)
 
   def breadth_first_for_each(self, cb):
-    pass
+    queue = []
+    cb = lambda x: queue.append(x)
 
   def insert(self, value):
     new_tree = BinarySearchTree(value)

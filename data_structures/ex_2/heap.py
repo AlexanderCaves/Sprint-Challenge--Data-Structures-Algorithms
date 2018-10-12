@@ -1,5 +1,6 @@
 def heapsort(arr):
- pass 
+  arr[0] = get_max(arr)
+  
  
 
 class Heap:

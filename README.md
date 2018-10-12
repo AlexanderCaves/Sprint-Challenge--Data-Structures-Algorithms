@@ -31,4 +31,3 @@ Open up the `Data_Structures_Answers.md` file. This is where you'll jot down you
 
 ## Algorithms
 For the algorithms portion of the sprint challenge, you'll be answering questions posed in the `Algorithms_Questions.md` document inside the `algorithms` directory. Add your answers to the questions in the `Algorithms_Answers.md` file.
-start
