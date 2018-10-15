@@ -1,8 +1,8 @@
 Add your answers to the Algorithms exercises here.
 Exercise I:
 a.  O(n^c)
-b.  O(n)
-c.  O(c)
+b.  O(n**3)
+c.  O(n)
 
 Exercise II:
 def egg_drop(floors):
@@ -14,3 +14,5 @@ def egg_drop(floors):
             return true
         else:
             return false
+
+Actually the most efficient solution is to start at the middle floor and check one up and one down.
